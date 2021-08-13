@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhrumit Thakkar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    <section class="me">
+        <div class="container">
+            <img id = "D1" src="IMG_1490.JPG" 
+            alt="Dhrumit" class="profile">
+            <h1 class="text-uppercase font-weight-bold">Dhrumit Thakkar</h1>
+            <h5 id="SD"><b>Student Developer</b></h5>
+            <div class="actions flex-center">
+                <a href="Dhrumit Resume.pdf" class="btn btn-primary mr-1 btn-hover">
+                    <ion-icon name="cloud-download" class="mr-50"></ion-icon>
+                    <span>Resume</span>
+                </a>
+                <a href="#contact-me" class="btn btn-hover">
+                    
+                    <span>Contact me</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    <section class="section-gap text-center alternate-bg">
+        <div class="container">
+            <div class="row">
+                <div class="BI">
+            <div class="header">
+
+                <h2>About<strong class="text-yellow-300"> Me</strong></h2> 
+            </div>
+            <p class="honesty"><i> I, Dhrumit Thakkar, am a life-long learner. I have been always swayed by the computers
+			and my interest in computers since high school which acted as a precursor in studying Information Technology, at present 
+			I am enrolled in Computer Programming course at Seneca. Further, I want to develop my skills in diffrent aspects of this field and
+			want to settle as computer programmer.</i>
+            
+               
+            </p>
+            </br>
+            
+                   
+                     
+                
+            </div>
+            <div class="BI">
+                
+				<h2>Basic<strong class="text-yellow-301"> Information</strong> </h2>
+                <table class="table">
+                    <tr>
+                        <td>Student ID</td>
+                        <td>:</td>
+                        <td>151650199</td>
+                    </tr>
+                    <tr>
+                      <td>Age</td>
+                      <td>:</td>
+                      <td>21</td>
+                    </tr>
+                    <tr>
+                      <td>E-Mail</td>
+                      <td>:</td>
+                      <td>drthakkar1@myseneca.ca</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>:</td>
+                        <td>English, French</td>
+                    </tr>
+             
+                  </table>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="education section-gap text-center">
+        <div class="container1">
+            <div class="header">
+                <h2 id="ED1">Education</h2>
+            </div>
+            <div class="education-details">
+                <div class="education-card">
+                    <div class="row" >
+                        <div class="col-color col-5" style="padding: 1em;"><h4>2014 - 2016 (Completed)</h4>
+                        
+                        <h3>Higher Secondary</h3>
+                        </div>
+                        <div class="col-7" style="padding: 1em;">
+                            <h3>Higher Education</h3>
+                            <h4>Shruti Higher Secondary School</h4>
+                        </br>
+                    </br>
+                           </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="education-card">
+                    <div class="row">
+                        <div class="col-color col-5" style="padding: 1em;"><h4>2016 - 2019(Completed)</h4>
+                        
+                        <h3>Undergraduate Diploma</h3>
+                        </div>
+                        <div class="col-7" style="padding: 1em;">
+                            <h3>Diploma</h3>
+                            <h4>Gujarat Technological University</h4>
+                        </br>
+                    </br>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="row">
+                        <div class="col-color col-5" style="padding: 1em;"><h4>2021 - 2022 (expected)</h4>
+                        <h3>Advance Diploma</h3>
+                        </div>
+                        <div class="col-7" style="padding: 1em;">
+                            <h3>Diploma</h3>
+                            <h4>School of Software Design & Data Science, Seneca College</h4>
+                        </br>
+                    </br>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section class="contact-me section-gap text-center alternate-bg" id="contact-me">
+        
+		<div class="container">
+            <div class="header">
+			
+                <h2>Contact<strong class="text-yellow-302"> Me</strong></h2>
+            </div>
+            </div>
+            <form id="contact-form" action="https://httpbin.org/post" method="POST">
+                <div class="row">
+                    <div class="col-6 ">
+                        <div class="form-group">
+                            <label for="">First name</label>
+                            <input type="text" name="name" placeholder="Enter First Name" class="form-control" required/><br><br>
+							<label for="">E-mail Address</label>
+                            <input type="email" name="email" placeholder="harry@hogwards.com" class="form-control" required/>
+							
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="">Last name</label>
+                            <input type="text" name="name" placeholder="Enter Last Name" class="form-control" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <div class="form-group">
+                            <label for="">Postal Address</label>
+                            <textarea name="address" rows="6" class="form-control" placeholder="Enter Address" required></textarea>
+                        </div>
+                    </div>
+					
+                    <div class="col-5">
+                        <div class="form-group">
+                            <label for="">City</label>
+                            <input name="city" type="text" placeholder="Ex. Montreal" class="form-control" list="cities" required/>
+                            <datalist id="cities">
+                                <option value="Vancouver">
+                                <option value="Ottawa">
+                                <option value="Calgary">
+								<option value="Toronto">
+                                <option value="Montreal">
+                                
+                              </datalist>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Postal Code</label>
+                            <input name="postalcode" type="text" placeholder="H3G 2G7" class="form-control" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group mb-1">
+                            <label for="" class="mr-2 mb-75 font-size-sm">Type of message ?</label>
+                            <div class="form-radio-group">
+                                <div class="mr-2">
+                                    <input type="radio" name="type" id="type-1" value="question" checked required>
+                                    <label for="type-1">Question</label>
+                                </div>
+                                <div class="mr-2">
+                                    <input type="radio" name="type" id="type-2" value="comment" required>
+                                    <label for="type-2">Comment</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="type" id="type-3" value="hiring" required>
+                                    <label for="type-3">Hiring</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="BI" style="display: none;" id="rate-container">
+                        <div class="form-group">
+                            <label for="">Hourly Rate</label>
+                            <input name="rate" type="number" placeholder="99" class="form-control" min="0" id="rate-input"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="">Enter Message</label>
+                            <textarea name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-1">
+                    <button type="submit" class="btn btn-sm btn-primary btn-curve m-auto font-weight-semi-bold">
+                        
+                        <span>Submit</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script src="validator.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
